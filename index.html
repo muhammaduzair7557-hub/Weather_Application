@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="search">
+            <div>
+                <input class="city" type="text" placeholder="Enter Location">
+                <button class="btn">
+                    <i class="fa-solid fa-magnifying-glass-location"></i>
+                </button>
+            </div>
+            <p class="error"></p>
+        </div>
+        <div class="weather">
+            <img src="weather1.png">
+            <div>
+                <h2 class="degree"></h2>
+                <h3 class="location"></h2>
+            </div>
+        </div>
+
+        <div class="weather1">
+            <div>
+                <img class="image" src="weather.png" alt="">
+                <div class="inner">
+                    <h2 class="humidity"></h2>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div>
+                <img class="image" src="wind.png">
+                <div class="inner">
+                    <h2 class="wind"></h2>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
